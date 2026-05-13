@@ -20,7 +20,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    // Тестові дані згідно зі скріншотом
     _expenses.addAll([
       Expense(id: 1, title: 'Lunch', amount: 25.0, category: ExpenseCategory.food, date: DateTime(2026, 4, 14)),
       Expense(id: 2, title: 'Uber ride', amount: 15.5, category: ExpenseCategory.transport, date: DateTime(2026, 4, 14)),
