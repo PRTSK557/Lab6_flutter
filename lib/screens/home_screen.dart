@@ -128,7 +128,6 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Total Card
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Container(
@@ -151,7 +150,6 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const Padding(padding: EdgeInsets.symmetric(horizontal: 16), child: Text('Categories', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16))),
             const SizedBox(height: 8),
-            // Categories Grid
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: GridView.count(
@@ -169,7 +167,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             const Padding(padding: EdgeInsets.all(16), child: Text('Recent Transactions', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16))),
-            // Transactions List
             ListView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
